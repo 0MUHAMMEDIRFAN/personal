@@ -1,0 +1,603 @@
+{
+    "experience": [
+        {
+            "company": "Whitejson Technologies",
+            "duration": "April 2023 – Dec 2024 (Present)",
+            "role": "Frontend Developer",
+            "tenure": "1 year & 8 months",
+            "responsibilities": [
+                "Collaborated closely with the CEO and co-founders to deliver market-driven projects.",
+                "Worked across frontend and backend development, managing multiple projects effectively.",
+                "Hosted, optimized performance, and implemented project improvements.",
+                "Gathered requirements from leadership and designed solutions aligned with market feedback.",
+                "Built projects from scratch, ensuring exceptional design and functionality.",
+                "Gained expertise in new technologies, programming languages, and project management."
+            ]
+        },
+        {
+            "company": "IEDC CEV",
+            "duration": "November 2022 – February 2023",
+            "role": "Web Developer",
+            "tenure": "4 months",
+            "responsibilities": [
+                "Selected for the role based on early-demonstrated skills in college.",
+                "Led a team to develop, launch, and manage a startup project successfully.",
+                "Recognized by senior peers for outstanding technical expertise and leadership."
+            ]
+        },
+        {
+            "company": "Freelance",
+            "duration": "JUNE 2023 – Dec 2024 (Present)",
+            "role": "Software Engineer",
+            "tenure": "2 years & 6 months",
+            "responsibilities": [
+                "Designed and developed projects from scratch, translating business needs into technical solutions.",
+                "Created UI/UX designs for companies and built strong professional connections.",
+                "Oversaw product specifications and delivered client-focused solutions."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Dentsoft",
+            "company": "WHITEJSON",
+            "technologies": [
+                "React.js",
+                "Tailwind",
+                "TypeScript",
+                "Electron.js",
+                "Chart.js",
+                "Vite",
+                "Git",
+                "Github",
+                "DigitalOcean"
+            ],
+            "description": [
+                "A management tool for dental clinics, handling doctors, treatments, patients, payments, and appointments.",
+                "Developed the frontend from scratch using React.js with modern UI components.",
+                "Converted Web application to Desktop by using Electron.js.",
+                "Managed user authentication and token-based login for secure access.",
+                "Implemented user role management and authorization functionalities.",
+                "Hosted the application on DigitalOcean and Integrated responsive UI and network error handling mechanisms.",
+                "Handled patient management, clinical activities, treatments, and appointment scheduling directly within frontend."
+            ]
+        },
+        {
+            "name": "Zero School",
+            "company": "PERSONAL",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "React.js",
+                "MongoDB",
+                "Docker",
+                "Docker Compose",
+                "Kubernetes",
+                "GitHub"
+            ],
+            "description": [
+                "A comprehensive system to manage students, teachers, classes, and all other activities in a school.",
+                "Implemented microservices architecture for scalability and maintainability.",
+                "Integrated multi-tenancy to support multiple schools within the same platform.",
+                "Designed and developed with Clean Architecture and SOLID principles for long-term maintainability.",
+                "Seamless user management for teachers, students, and administrators."
+            ]
+        },
+        {
+            "name": "Frappe Dentsoft",
+            "company": "WHITEJSON",
+            "technologies": [
+                "Frappe Framework",
+                "Healthcare",
+                "Bench",
+                "Erpnext",
+                "Doppio",
+                "React.js",
+                "Typescript",
+                "Tailwind"
+            ],
+            "description": [
+                "Transitioned Dentsoft to the Frappe framework, integrating ERPNext for enhanced functionality.",
+                "Migration of the Dentsoft project to the Frappe framework with custom app development.",
+                "Integrated React UI with Frappe using Doppio.",
+                "Integrated ERPNext and Healthcare module of frappe."
+            ]
+        },
+        {
+            "name": "Garage Management",
+            "company": "WHITEJSON",
+            "technologies": [
+                "Strapi",
+                "React.js",
+                "Tailwindcss",
+                "Digital Ocean",
+                "Aws S3"
+            ],
+            "description": [
+                "A management tool for garages, handling work management, user roles, and insurance approvals.",
+                "Developed a custom design for invoice printing as PDFs.",
+                "Implemented photo upload functionality for dents and scratches also dents marking using canvas.",
+                "Role-based access control for users. Connected AWS S3 for media storage.",
+                "Designed backend using Strapi.js for efficient content management and API development.",
+                "Added user-friendly interface using React.js and Hosted on DigitalOcean."
+            ]
+        },
+        {
+            "name": "Ecommerce App",
+            "company": "PERSONAL",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "Handlebars",
+                "Payment Gateway",
+                "JWT",
+                "GitHub"
+            ],
+            "description": [
+                "A complete Ecommerce platform to manage products, orders, and users.",
+                "User authentication and authorization with secure login.",
+                "Shopping cart management and product search functionality.",
+                "Integrated payment gateway, Order placement and management for both users and admins."
+            ]
+        }
+    ],
+    "miniProjects": [
+        {
+            "name": "Real-Time Mouse Pointer",
+            "company": "PERSONAL",
+            "technologies": [
+                "Node.js",
+                "Socket.io",
+                "Javascript"
+            ],
+            "description": [
+                "A collaborative web app showing real-time cursor movements of all active users.",
+                "Displayed live random color cursor movements with assigned user names of users.",
+                "Designed a clean and interactive UI with real-time socket integration."
+            ]
+        },
+        {
+            "name": "KIVLIC CAREER",
+            "company": "PERSONAL",
+            "technologies": [
+                "React.js",
+                "Firebase Auth",
+                "SASS/SCSS"
+            ],
+            "description": [
+                "A career portal website for applying jobs.",
+                "Google account-based authentication, email and password, phone and OTP Authentication by using Firebase.",
+                "Profile management, logout functionality, job applying and responsive design."
+            ]
+        },
+        {
+            "name": "TaskManager",
+            "company": "PERSONAL",
+            "technologies": [
+                "React.js",
+                "Firebase"
+            ],
+            "description": [
+                "A task management app for adding, completing, and deleting tasks.",
+                "Task addition, completion, and deletion with categorized views with Responsive design & dark/light themes."
+            ]
+        }
+    ],
+    "landingPagesAndPortfolios": [
+        {
+            "name": "IEDC CEV",
+            "company": "IEDC",
+            "technologies": [
+                "React.js",
+                "Firebase"
+            ],
+            "description": [
+                "Project Management, Client Management"
+            ]
+        },
+        {
+            "name": "UQASH",
+            "company": "FREELANCE",
+            "technologies": [
+                "React.js",
+                "Tailwindcss",
+                "Google Scripts",
+                "Figma"
+            ],
+            "description": [
+                "Project Management, Client Management"
+            ]
+        },
+        {
+            "name": "Dentsoft",
+            "company": "WHITEJSON",
+            "technologies": [
+                "React.js",
+                "Figma",
+                "UI/UX",
+                "Parallax CSS"
+            ],
+            "description": [
+                "Project Management, Client Management"
+            ]
+        },
+        {
+            "name": "Whitejson",
+            "company": "WHITEJSON",
+            "technologies": [
+                "React.js",
+                "Figma",
+                "UI"
+            ],
+            "description": [
+                "Project Management, Client Management"
+            ]
+        }
+    ],
+    "embeddedSystemProjects": [
+        {
+            "name": "Wifi Controlled LED",
+            "technologies": [
+                "ESP-32",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Turning an LED on/off using ESP32 and a mobile phone app or web interface."
+            ]
+        },
+        {
+            "name": "Host Port Device",
+            "technologies": [
+                "ESP-32",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Exploring how to use ESP32 as a local host for communication."
+            ]
+        },
+        {
+            "name": "ESP32 as Transmitter and Receiver",
+            "technologies": [
+                "ESP-32",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Sending and receiving data simultaneously with one ESP32."
+            ]
+        },
+        {
+            "name": "RF Transmitter & Receiver",
+            "technologies": [
+                "RF modules",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Sending data (turning LED on/off) wirelessly between devices using RF modules."
+            ]
+        },
+        {
+            "name": "Bluetooth Communication",
+            "technologies": [
+                "Bluetooth modules",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Sending data using Bluetooth modules."
+            ]
+        },
+        {
+            "name": "Hardware Communication",
+            "technologies": [
+                "Microcontrollers",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Interfacing components (LEDs, sensors, modules...) with microcontrollers."
+            ]
+        },
+        {
+            "name": "Creating Drivers",
+            "technologies": [
+                "Microcontrollers",
+                "Arduino IDE"
+            ],
+            "description": [
+                "Writing low-level drivers for simple devices."
+            ]
+        }
+    ],
+    "practicalEngineeringHighlights": [
+        {
+            "title": "Washing Machine Repair",
+            "description": "Diagnosed and repaired a malfunctioning washing machine by identifying and replacing two faulty parts. Demonstrates problem-solving skills.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Home Theater Speaker Restoration (5.1)",
+            "description": "Fixed wiring issues, replaced damaged components, and restored audio performance. Highlights diagnostic abilities.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Bluetooth Speaker Repair",
+            "description": "Restored a non-functional Bluetooth speaker by addressing hardware malfunctions. Reflects technical confidence.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Home Theater 2.0 Repair",
+            "description": "Troubleshot and repaired a classic 2.0 system by reassembling wiring and enhancing performance. Showcases analytical thinking.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Car Fog Light & Brake System Repair",
+            "description": "Replaced a broken fog light bulb, resolved a brake cylinder leak, and performed maintenance. Reflects a curiosity for learning technology.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "DVD Player Disassembly & Inspection",
+            "description": "Disassembled a decade-old DVD player to explore faults and understand its mechanics. Shows a keen interest in technology.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "PC Parts Assembly",
+            "description": "Built a custom PC by researching, sourcing, and assembling components. Demonstrates a deep understanding of hardware.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Samsung M32 Phone Restoration",
+            "description": "Repaired a water-damaged phone by cleaning and reassembling components. Reflects technical confidence and precision.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Laptop Inspection",
+            "description": "Opened, examined, and reassembled a new laptop to understand its hardware layout. Showcases experience and self-assurance.",
+            "link": "LinkedIn"
+        }
+    ],
+    "professionalAchievements": [
+        {
+            "title": "Second Place in Web Development Competition",
+            "description": "Secured 2nd place at the 'Quasso Leberum 10' tech event by the College of Engineering Vadakara. Competed against senior participants and showcased exceptional skills.",
+            "link": "Certified"
+        },
+        {
+            "title": "Mathematical Achievement",
+            "description": "Topped a school-level math quiz competition, securing a spot in an inter-school contest, where I represented my school. Achieved a top individual placement in state-level competition.",
+            "link": "Certified"
+        },
+        {
+            "title": "School Arts and Science Achievements",
+            "description": "Won over 30 trophies and certificates for excelling in competitions like singing, quizzes, math tests, and various arts and science programs during school.",
+            "link": "LinkedIn"
+        },
+        {
+            "title": "Techmate Volunteer Role",
+            "description": "Appointed as a Techmate Volunteer by a local ward member for a community survey, acknowledging my technical skills and dedication.",
+            "link": "Id Card"
+        },
+        {
+            "title": "Contribution to Xiaomi MIUI OS",
+            "description": "Identified and reported bugs in Xiaomi MIUI OS during its development. This contribution earned recognition, and I was invited to Xiaomi’s official Telegram group as a contributor."
+        }
+    ],
+    "otherHighlights": [
+        {
+            "title": "Curiosity and Hands-On Learning",
+            "description": "Passionate about exploring hardware and solving technical problems."
+        },
+        {
+            "title": "Research Skills",
+            "description": "Successfully researched and resolved various issues using online tools, videos, and forums."
+        },
+        {
+            "title": "Early Tech Involvement",
+            "description": "Demonstrated enthusiasm for technology from a young age by exploring mobile phones."
+        }
+    ],
+    "contribution": [
+        {
+            "title": "Welfare Fund Collection",
+            "company": "DATAHEX",
+            "technologies": [
+                "PHP",
+                "Bootstrap",
+                "JavaScript"
+            ],
+            "description": [
+                "Developed and managed the admin panel for a PHP-based fund collection web app.",
+                "Implemented admin management, authentication, and authorization features.",
+                "Integrated collection reports with filtering, searching, hierarchy-based access."
+            ]
+        },
+        {
+            "title": "Montekids",
+            "company": "DATAHEX",
+            "technologies": [
+                "PHP",
+                "Laravel",
+                "JavaScript"
+            ],
+            "description": [
+                "A school management system for efficient operations.",
+                "Helped deploy and host the project on AWS for robust availability."
+            ]
+        },
+        {
+            "title": "Kittum.com",
+            "company": "Open Source",
+            "technologies": [
+                "Vue.js",
+                "Go",
+                "JavaScript"
+            ],
+            "description": [
+                "A fun site tailored for Kerala citizens, primarily in Malayalam.",
+                "Improved and refined the UI to enhance user experience."
+            ],
+            "link": "GitHub"
+        }
+    ],
+    "education": [
+        {
+            "degree": "BTECH - Information Technology",
+            "duration": "July 2022 - March 2024",
+            "institution": "KTU - College of Engineering Vadakra",
+            "location": "Calicut, Kerala"
+        },
+        {
+            "degree": "BCA - Computer Software Engineering",
+            "duration": "February 2024 - April 2027",
+            "institution": "Manipal University (MUJ)",
+            "location": "Jaipur, Kerala"
+        },
+        {
+            "degree": "Higher Secondary - Computer Science",
+            "duration": "July 2020 - July 2022",
+            "institution": "Board of Higher Secondary Examination, Kerala (MIMHSS)",
+            "location": "Calicut, Kerala"
+        },
+        {
+            "degree": "SSLC",
+            "duration": "July 2010 - April 2020",
+            "institution": "Kerala State Board Of Public Examination",
+            "location": "Calicut, Kerala"
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Web Designing Competition - Runner Up",
+            "link": "View"
+        },
+        {
+            "title": "Maths Competition",
+            "link": "View"
+        },
+        {
+            "title": "Brocode - Competition",
+            "link": "View"
+        },
+        {
+            "title": "HTML, CSS, JavaScript",
+            "link": "View"
+        },
+        {
+            "title": "C & Java Programming (100k coding)",
+            "link": "View"
+        },
+        {
+            "title": "Web Design",
+            "link": "View"
+        },
+        {
+            "title": "React.js",
+            "link": "View"
+        },
+        {
+            "title": "Git & GitHub",
+            "link": "View"
+        },
+        {
+            "title": "Node.js & Express.js & MongoDB",
+            "link": "View"
+        },
+        {
+            "title": "Python",
+            "link": "View"
+        }
+    ],
+    "tutorials": [
+        {
+            "platform": "Brototype",
+            "courses": [
+                {
+                    "title": "100k coding (C & Java)",
+                    "lessons": "10 lessons — 1 Hrs each"
+                },
+                {
+                    "title": "HTML, CSS, JS, JQuery",
+                    "lessons": "10 lessons — 1 Hrs each"
+                },
+                {
+                    "title": "GIT & GITHUB",
+                    "lessons": "5 lessons — 50 Mins each"
+                },
+                {
+                    "title": "React Js",
+                    "lessons": "13 lessons — 50 Mins each"
+                },
+                {
+                    "title": "Nodejs, MongoDB, Ecommerce",
+                    "lessons": "30 lessons — 40 Mins each"
+                },
+                {
+                    "title": "Web Hosting",
+                    "lessons": "1 lesson — 2 Hrs each"
+                },
+                {
+                    "title": "Data Structure & Algorithm",
+                    "lessons": "22 lessons — 50 Mins each"
+                }
+            ]
+        },
+        {
+            "platform": "Debug Media",
+            "courses": [
+                {
+                    "title": "HTML Tutorials",
+                    "lessons": "7 lessons — 5 Mins each"
+                },
+                {
+                    "title": "CSS Tutorials",
+                    "lessons": "15 lessons — 10 Mins each"
+                },
+                {
+                    "title": "Javascript Tutorials",
+                    "lessons": "13 lessons — 30 Mins each"
+                },
+                {
+                    "title": "React JS Malayalam",
+                    "lessons": "15 lessons — 15 Mins each"
+                },
+                {
+                    "title": "Git Tool",
+                    "lessons": "4 lessons — 12 Mins each"
+                },
+                {
+                    "title": "Node JS",
+                    "lessons": "10 lessons — 20 Mins each"
+                },
+                {
+                    "title": "TypeScript",
+                    "lessons": "5 lessons — 30 Mins each"
+                },
+                {
+                    "title": "Redux Toolkit",
+                    "lessons": "3 lessons — 30 Mins each"
+                }
+            ]
+        },
+        {
+            "platform": "Wecode Malayalam",
+            "courses": [
+                {
+                    "title": "System Design",
+                    "lessons": "4 lessons — 35 Mins each"
+                }
+            ]
+        },
+        {
+            "platform": "Frappe School",
+            "courses": [
+                {
+                    "title": "ErpNext Introduction",
+                    "lessons": "8 lessons"
+                },
+                {
+                    "title": "Frappe Healthcare Management",
+                    "lessons": "6 lessons — 10 Mins each"
+                }
+            ]
+        }
+    ]
+}
