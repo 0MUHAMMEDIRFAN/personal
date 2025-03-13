@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 interface CardProps {
   heading: string;
-  description: string;
+  descriptions: string[];
 }
 
-const Card: React.FC<CardProps> = ({ heading, description }) => {
+const Card: React.FC<CardProps> = ({ heading, descriptions }) => {
   return (
     <StyledWrapper>
       <div className="parent">
@@ -26,7 +26,9 @@ const Card: React.FC<CardProps> = ({ heading, description }) => {
           <div className="glass" />
           <div className="content">
             <span className="title">{heading}</span>
-            <span className="text">{description}</span>
+            {descriptions.map((desc: string, index: number) => (
+              <span key={index} className="text">{desc}</span>
+            ))}
           </div>
           <div className="bottom">
             <div className="social-buttons-container">
@@ -45,8 +47,8 @@ const Card: React.FC<CardProps> = ({ heading, description }) => {
                 </svg>
               </button>
             </div>
-            <div className="view-more">
-              <button className="view-more-button">View more</button>
+            <div className="view-more cursor-pointer">
+              <button className="view-more-button cursor-pointer">View more</button>
               <svg className="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6" /></svg>
             </div>
           </div>

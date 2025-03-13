@@ -3,7 +3,7 @@ import React from 'react';
 
 const Experience: React.FC = () => {
     return (
-        <section className="bg-white" id="Experience-section">
+        <section className="" id="Experience-section">
             <div className="container">
                 <h1 className="text-center">Experience</h1>
                 <div className="row">

@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import Services from './components/services'
-import Experience from './components/Experience'
-import Footer from './components/footer'
-import TopBar from './components/topbar'
-import Banner from './components/banner'
+import Services from './Sections/Services'
+import Experience from './Sections/Experience'
+import Footer from './Sections/Footer'
+import TopBar from './Sections/Topbar'
+import Banner from './Sections/Banner'
+import Projects from './Sections/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
     <>
       <TopBar />
       <Banner />
-      <Services />
+      <Projects />
       <Experience />
       <Footer />
     </>
