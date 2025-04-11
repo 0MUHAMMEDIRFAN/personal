@@ -8,7 +8,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ heading, descriptions }) => {
   return (
     <StyledWrapper>
-      <div className="parent">
+      <div className="parent w-80 h-96 perspective-distant">
         <div className="card">
           <div className="logo">
             <span className="circle circle1" />
@@ -24,11 +24,13 @@ const Card: React.FC<CardProps> = ({ heading, descriptions }) => {
             </span>
           </div>
           <div className="glass" />
-          <div className="content">
+          <div className="content flex flex-col h-full p-[100px_60px_80px_30px]">
             <span className="title">{heading}</span>
-            {descriptions.map((desc: string, index: number) => (
-              <span key={index} className="text">{desc}</span>
-            ))}
+            <div className='overflow-y-auto'>
+              {descriptions.map((desc: string, index: number) => (
+                <span key={index} className="text">{desc}</span>
+              ))}
+            </div>
           </div>
           <div className="bottom">
             <div className="social-buttons-container">
@@ -59,12 +61,6 @@ const Card: React.FC<CardProps> = ({ heading, descriptions }) => {
 }
 
 const StyledWrapper = styled.div`
-  .parent {
-    width: 290px;
-    height: 300px;
-    perspective: 1000px;
-  }
-
   .card {
     height: 100%;
     border-radius: 50px;
@@ -90,7 +86,6 @@ const StyledWrapper = styled.div`
   }
 
   .content {
-    padding: 100px 60px 0px 30px;
     transform: translate3d(0, 0, 26px);
   }
 

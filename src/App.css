@@ -27,4 +27,27 @@
 }
 
 
+.burger_icon,
+.burger_icon::after,
+.burger_icon::before {
+  width: 24px;
+  height: 3px;
+  border-top: 1.5px var(--light-secondary-color) solid;
+  border-bottom: 1.5px var(--light-secondary-color) solid;
+  border-radius: 6px;
+  background: var(--light-secondary-color);
+  position: relative;
+  /* transition: all ease .2s; */
+}
 
+.burger_icon::after {
+  content: "";
+  top: 5px;
+  position: absolute;
+}
+
+.burger_icon::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+}

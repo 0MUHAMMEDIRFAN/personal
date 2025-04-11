@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
   --color-primary: #161b1e;
   --color-primary-alt: #22282a;
   --color-secondary: #ebeaef;
@@ -39,7 +39,8 @@
   --tertiary-color: #1ce480;
   --dark-color: #111;
   --dark-color-alt: #22282a;
-  --light-color: #fff;
+  --light-primary-color: #fff;
+  --light-secondary-color: #d4d4d4;
   --gray-color: #eeeeee;
   --font-mono: "Roboto Mono", monospace;
 }
@@ -50,16 +51,20 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   font-family: Poppins, Roboto, sans-serif;
-  
+
   overflow: auto;
   scrollbar-gutter: stable both-edges;
 }
+
+
 
 a {
   text-decoration: inherit;
   cursor: pointer;
   color: inherit;
 }
+
+
 
 
 

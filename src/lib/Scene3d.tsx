@@ -1,3 +1,4 @@
+import gsap from 'gsap';
 import * as THREE from 'three';
 import { GLTF, OrbitControls } from 'three/examples/jsm/Addons.js';
 
@@ -19,6 +20,7 @@ class Scene3d {
         this.fov = 5;
 
         this.scene = new THREE.Scene();
+        
         this.scene.background = null;
         this.camera = new THREE.PerspectiveCamera(this.fov, canvas.clientWidth / canvas.clientHeight, 1, 1000);
 
@@ -34,7 +36,7 @@ class Scene3d {
         this.controls = new OrbitControls(this.camera, this.renderer.domElement)
         this.controls.enableZoom = false;
         // this.controls.enableRotate = false;
-        // this.controls.enablePan = false;
+        this.controls.enablePan = false;
 
     }
 
@@ -73,17 +75,17 @@ class Scene3d {
     }
     onDragOut() {
         setTimeout(() => {
-            this.camera.position.z = 500;
-            this.camera.position.x = -200;
-            this.camera.position.y = 150;
-        }, 500);
+            gsap.to(this.camera.position, { x: -200, y: 150, z: 500, duration: 1, ease: 'back' })
+        }, 200);
     }
     onWindowResize() {
         const canvasParent = document.getElementById(this.parentId)
-        console.log(canvasParent?.clientWidth)
-        this.camera.aspect = canvasParent.clientWidth / canvasParent.clientHeight;
-        this.camera.updateProjectionMatrix();
-        this.renderer.setSize(canvasParent.clientWidth, canvasParent.clientHeight);
+        // console.log(canvasParent?.clientWidth)
+        if (canvasParent) {
+            this.camera.aspect = canvasParent.clientWidth / canvasParent.clientHeight;
+            this.camera.updateProjectionMatrix();
+            this.renderer.setSize(canvasParent.clientWidth, canvasParent.clientHeight);
+        }
     }
     bounceAnimate(bounceSpeed: number = 0.06, bounceHeight: number = 0.3) {
         let direction = 1; // Controls movement direction
@@ -93,7 +95,7 @@ class Scene3d {
                 this.scene.position.y += bounceSpeed * direction; // Move up/down
 
                 // Reverse direction when reaching max/min height
-                if (this.scene.position.y > 1.5 || this.scene.position.y < -1.5) {
+                if (this.scene.position.y > bounceHeight || this.scene.position.y < -bounceHeight) {
                     direction *= -1; // Change direction
                 }
             }
