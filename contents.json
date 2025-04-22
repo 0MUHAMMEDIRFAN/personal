@@ -2,9 +2,10 @@
     "experience": [
         {
             "company": "Whitejson Technologies",
-            "duration": "April 2023 – Dec 2024 (Present)",
+            "icon":"https://media.licdn.com/dms/image/v2/C4E0BAQGFNcdAb_epLg/company-logo_200_200/company-logo_200_200/0/1672935408488?e=1750896000&v=beta&t=YYuUWZ_3yNb-97AWiPdlYsztq4844yKA9RD4KteDUdQ",
+            "duration": "April 2023 – April 2024 (Present)",
             "role": "Frontend Developer",
-            "tenure": "1 year & 8 months",
+            "tenure": "2 year & 1 month",
             "responsibilities": [
                 "Collaborated closely with the CEO and co-founders to deliver market-driven projects.",
                 "Worked across frontend and backend development, managing multiple projects effectively.",
@@ -16,6 +17,7 @@
         },
         {
             "company": "IEDC CEV",
+            "icon":"https://innovate.startupmission.in/assets/im/jpeg/logos/6.jpg",
             "duration": "November 2022 – February 2023",
             "role": "Web Developer",
             "tenure": "4 months",
@@ -27,6 +29,7 @@
         },
         {
             "company": "Freelance",
+            "icon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlQIyYou6Z6NGGk2u70GvWmvDGFZgbKIyFnA&s",
             "duration": "JUNE 2023 – Dec 2024 (Present)",
             "role": "Software Engineer",
             "tenure": "2 years & 6 months",

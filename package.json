@@ -13,6 +13,7 @@
   "dependencies": {
     "@react-three/fiber": "^9.1.0",
     "@tailwindcss/vite": "^4.0.9",
+    "framer-motion": "^12.7.4",
     "gsap": "^3.12.7",
     "motion": "^12.5.0",
     "react": "^19.0.0",
